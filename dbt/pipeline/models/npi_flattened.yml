@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    tables:
+      - name: npi # The name of your table in BigQuery
+        description: "Raw National Provider Identifier (NPI) data from the NPPES registry."
+        columns:
+          - name: npi
+            description: "The unique 10-digit National Provider Identifier."
+            tests:
+              - unique
+              - not_null
