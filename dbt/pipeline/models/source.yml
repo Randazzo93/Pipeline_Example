@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: healthcare
+    database: pipeline-466619
+    schema: healthcare
+    tables:
+      - name: npi
