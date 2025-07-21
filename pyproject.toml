@@ -8,7 +8,12 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "dbt-core (>=1.10.4,<2.0.0)"
+    "dbt-core (>=1.10.4,<2.0.0)",
+    "dbt-bigquery (>=1.10.0,<2.0.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "google-cloud-bigquery (>=3.35.0,<4.0.0)",
+    "gcloud (>=0.18.3,<0.19.0)",
+    "pendulum (>=3.1.0,<4.0.0)"
 ]
 
 
